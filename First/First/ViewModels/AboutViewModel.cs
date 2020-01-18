@@ -9,6 +9,7 @@ namespace First.ViewModels
     {
         public AboutViewModel()
         {
+            //asdfasdfasdfasdfda
             Title = "About";
             OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://xamarin.com"));
         }
